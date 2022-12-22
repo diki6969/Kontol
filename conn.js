@@ -1039,7 +1039,7 @@ var menu_list =`
 _Utamakan chat to the point_ 🚀
 
 *_Admin hanya melayani chat_*
-*_Seputar gurabot & transaksi_*
+*_Seputar 𝙄𝙠𝙮𝙮𝘽𝙤𝙩 & transaksi_*
 
 ${strip}Telpon/Spam blokir 🚫${strip}
 
@@ -2424,7 +2424,7 @@ var emo2 = q.split("+")[1]
 if (!isEmoji(emo1) || !isEmoji(emo2)) return reply(`Itu bukan emoji!`)
 fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emo1)}_${encodeURIComponent(emo2)}`)
 .then(data => {
-var opt = { packname: 'Gurbot MD', author: 'By Lexxy' }
+var opt = { packname: '𝙄𝙠𝙮𝙮𝘽𝙤𝙩', author: '𝐈𝐤𝐲𝐲𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥' }
 conn.sendImageAsSticker(from, data.results[0].url, msg, opt)
 }).catch((e) => reply(mess.error.api))
 break
@@ -2433,7 +2433,7 @@ case 'emojmix2': case 'emojinua2':{
 if (!q) return reply(`Example : ${prefix + command} 😅`)
 let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(q)}`)
 for (let res of anu.results) {
-var opt = { packname: 'Gurbot MD', author: 'By Lexxy' }
+var opt = { packname: '𝙄𝙠𝙮𝙮𝘽𝙤𝙩', author: '𝐈𝐤𝐲𝐲𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥' }
 let encmedia = await conn.sendImageAsSticker(from, res.url, msg, opt)
 }
 }
@@ -2452,7 +2452,7 @@ reply(mess.wait)
 var media = await conn.downloadAndSaveMediaMessage(msg, 'image', `./sticker/${sender.split('@')[0]}.jpg`)
 var media_url = (await UploadFileUgu(media)).url
 var meme_url = `https://api.memegen.link/images/custom/${encodeURIComponent(atas)}/${encodeURIComponent(bawah)}.png?background=${media_url}`
-var opt = { packname: 'Gurbot MD', author: 'By Lexxy' }
+var opt = { packname: '𝙄𝙠𝙮𝙮𝘽𝙤𝙩', author: '𝐈𝐤𝐲𝐲𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥' }
 conn.sendImageAsSticker(from, meme_url, msg, opt)
 fs.unlinkSync(media)
 } else {

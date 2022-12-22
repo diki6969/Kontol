@@ -1,13 +1,13 @@
-{ 
+{
   "ChatOwner": "6282281657946@s.whatsapp.net",
   "ownerNumber": "6282281657946@s.whatsapp.net",
   "botName": "𝙄𝙠𝙮𝙮𝘽𝙤𝙩",
   "ownerName": "𝐈𝐤𝐲𝐲𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥",
   "sessionName": "session",
-  "footer": "© 𝙄𝙠𝙮𝙮 𝘽𝙤𝙩 2022",
+  "footer": "𝐈𝐤𝐲𝐲𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 2022",
   "api_lolkey": "SadTeams",
-  "group":{
-  "judul": "Forum Bot WhatsApp",
-  "link": "https://chat.whatsapp.com/Lao3HWH4lYiBzWBR38HbTX"
+  "group": {
+    "judul": "Forum Bot WhatsApp",
+    "link": "https://chat.whatsapp.com/Lao3HWH4lYiBzWBR38HbTX"
   }
 }
