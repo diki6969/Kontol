@@ -1,8 +1,7 @@
-
 hidden = [".config"]
 run = "npm i -g pm2 && pm2 start main.js && pm2 save && pm2 monit"
 
-[[hints]]
+sm[[hints]]npm
 regex = "Error \\[ERR_REQUIRE_ESM\\]"
 message = "We see that you are using require(...) inside your code. We currently do not support this syntax. Please use 'import' instead when using external modules. (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)"
 
